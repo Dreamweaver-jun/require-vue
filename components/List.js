@@ -5,9 +5,6 @@ define(['vue','text!../components/list.html', '../components/nav'],function(Vue,
             return {
                 list: [2,4,6,8]
             }
-        },
-        components: {
-            'my-nav': nav
         }
     })
 });
