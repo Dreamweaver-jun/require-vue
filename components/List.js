@@ -1,4 +1,4 @@
-define(['vue','text!../components/list.html', '../components/nav'],function(Vue, listTpl, nav){
+define(['vue','text!../components/list.html', '../components/nav'],function(Vue, listTpl){
     Vue.component('list',{
         template:listTpl,
         data: function(){
